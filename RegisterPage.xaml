@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMProWater.RegisterPage">
+
+    <Grid>
+        <Image Source="tlo.jpg" Aspect="AspectFill" />
+
+        <StackLayout Padding="30" Spacing="10"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center">
+            <Label Text="Rejestracja" FontSize="30" HorizontalOptions="Center" TextColor="Black" Margin="0, 0, 0, 20"/>
+            <Frame BackgroundColor="White" CornerRadius="5" Padding="5" Margin="0, 0, 0, 10">
+                <Entry x:Name="EmailEntry" Placeholder="Email" Keyboard="Email" WidthRequest="250" HorizontalOptions="Center"/>
+            </Frame>
+            <Frame BackgroundColor="White" CornerRadius="5" Padding="5" Margin="0, 0, 0, 20">
+                <Entry x:Name="PasswordEntry" Placeholder="Hasło" IsPassword="True" WidthRequest="250" HorizontalOptions="Center"/>
+            </Frame>
+            <Button Text="Zarejestruj" Clicked="OnRegisterButtonClicked" WidthRequest="100" HorizontalOptions="Center"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

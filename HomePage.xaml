@@ -1,0 +1,8 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMProWater.HomePage">
+    <StackLayout Padding="30" Spacing="10">
+        <Label Text="Strona Główna" FontSize="30" HorizontalOptions="Center"/>
+        <!-- Tutaj dodasz ikony i inne elementy -->
+    </StackLayout>
+</ContentPage>
